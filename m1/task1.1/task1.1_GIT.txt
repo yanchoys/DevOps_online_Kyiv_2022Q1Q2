@@ -1,0 +1,14 @@
+a9bb8aa HEAD@{0}: merge develop: Fast-forward
+d6df1c4 HEAD@{1}: checkout: moving from develop to main
+a9bb8aa HEAD@{2}: merge styles: Fast-forward
+aa73f0d HEAD@{3}: merge images: Fast-forward
+11f2956 HEAD@{4}: checkout: moving from styles to develop
+a9bb8aa HEAD@{5}: commit: add styles and update index.html
+aa73f0d HEAD@{6}: checkout: moving from images to styles
+aa73f0d HEAD@{7}: commit: add images in index.html
+80e4ad4 HEAD@{8}: commit: add folder images with images inside
+11f2956 HEAD@{9}: checkout: moving from develop to images
+11f2956 HEAD@{10}: commit: add empty file index.html
+d6df1c4 HEAD@{11}: checkout: moving from main to develop
+d6df1c4 HEAD@{12}: commit: add empty file readme.txt
+45afa02 HEAD@{13}: clone: from https://github.com/yanchoys/DevOps_online_Kyiv_2022Q1Q2.git
