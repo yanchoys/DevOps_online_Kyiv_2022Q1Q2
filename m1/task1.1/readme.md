@@ -1,0 +1,1 @@
+"i don't know exactly how to describe the results of this work, but i did all of the tasks, i'm not sure in step 26, what's mean local repo, but i thought that it is my own repo, so it was really interesting and exciting expirience" 
