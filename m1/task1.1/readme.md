@@ -1,1 +1,4 @@
 "i don't know exactly how to describe the results of this work, but i did all of the tasks, i'm not sure in step 26, what's mean local repo, but i thought that it is my own repo, so it was really interesting and exciting expirience" 
+The word DevOps is a combination of the terms development and operations, meant to represent a collaborative or shared approach to the tasks performed by a company's application development and IT operations teams.
+
+In its broadest meaning, DevOps is a philosophy that promotes better communication and collaboration between these teams - and others - in an organization. In its most narrow interpretation, DevOps describes the adoption of iterative software development, automation, and programmable infrastructure deployment and maintenance
