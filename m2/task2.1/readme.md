@@ -18,4 +18,4 @@ for example it can be:
 - Storage migration
 - (and more)
 # Work with VirtualBox
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://github.com/yanchoys/DevOps_online_Kyiv_2022Q1Q2/blob/main/m2/task2.1/images/VirtualBox-Networking-Modes.jpg)
