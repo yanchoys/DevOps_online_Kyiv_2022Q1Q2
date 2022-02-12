@@ -18,4 +18,23 @@ for example it can be:
 - Storage migration
 - (and more)
 # Work with VirtualBox
-![This is an image](https://github.com/yanchoys/DevOps_online_Kyiv_2022Q1Q2/blob/main/m2/task2.1/images/VirtualBox-Networking-Modes.jpg)
+
+Work with networking
+----------------------------------------------------------------------------------------------------------------------------------------
+![NetworkTable](https://github.com/yanchoys/DevOps_online_Kyiv_2022Q1Q2/blob/main/m2/task2.1/images/VirtualBox-Networking-Modes.jpg)
+
+Work with VMGroups
+----------------------------------------------------------------------------------------------------------------------------------------
+![VMGroups](https://github.com/yanchoys/DevOps_online_Kyiv_2022Q1Q2/blob/main/m2/task2.1/images/VMsGroups.jpg)
+
+Work With Vagrant
+----------------------------------------------------------------------------------------------------------------------------------------
+![Work With Vagrant](https://github.com/yanchoys/DevOps_online_Kyiv_2022Q1Q2/blob/main/m2/task2.1/images/Vagrant.jpg)
+
+Work with Vagrant Box
+----------------------------------------------------------------------------------------------------------------------------------------
+![Vagrant Box](https://github.com/yanchoys/DevOps_online_Kyiv_2022Q1Q2/blob/main/m2/task2.1/images/createdVagrant.jpg)
+
+Work CLI commands VBox
+----------------------------------------------------------------------------------------------------------------------------------------
+![CLI commands VBox](https://github.com/yanchoys/DevOps_online_Kyiv_2022Q1Q2/blob/main/m2/task2.1/images/infoVM.jpg)
