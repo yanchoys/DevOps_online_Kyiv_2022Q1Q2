@@ -4,6 +4,9 @@
 ## Who is DevOps
 The word ***DevOps*** is a combination of the terms **development** and **operations**, meant to represent a collaborative or shared approach to the tasks performed by a company's application development and IT operations teams.
 In its broadest meaning, DevOps is a philosophy that promotes better communication and collaboration between these teams - and others - in an organization. In its most narrow interpretation, DevOps describes the adoption of iterative software development, automation, and programmable infrastructure deployment and maintenance.
+
+## HTML document
+![HTMLDOC](https://thumbs2.imgbox.com/f5/e8/SFpBe9N0_t.png)
 ## GIT reflog
 ```a9bb8aa HEAD@{0}: merge develop: Fast-forward
 d6df1c4 HEAD@{1}: checkout: moving from develop to main
