@@ -83,3 +83,8 @@ Fill in browser ip of instance
 This service means that anyone can compile the code without thinking where and how it will start
 
 ![Lambda](https://github.com/yanchoys/DevOps_online_Kyiv_2022Q1Q2/blob/main/m2/task2.2/images/LambdaAWS.JPG)
+
+# Bucket WebSite
+Created [website](http://ignatyev.pp.ua/) with help S3 service
+
+![WebSite](https://github.com/yanchoys/DevOps_online_Kyiv_2022Q1Q2/blob/main/m2/task2.2/images/myBucketWeb.JPG)
