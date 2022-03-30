@@ -11,6 +11,7 @@
  
 OUTPUT:
 ```
+...
 gdm:x:125:130:Gnome Display Manager:/var/lib/gdm3:/bin/false
 sssd:x:126:131:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
 systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
@@ -26,6 +27,13 @@ adm:x:4:syslog,yamomoto
 tty:x:5:syslog
 disk:x:6:
 lp:x:7:
+...
 ```
 
 ##### UID ranges
+0 reserved for root
+1-999 fro pseudo-userd,daemon
+1000-65535 
+UID - user identifier
+GID - group identifier
+it can be defined in /etc/passwd on 4 position
