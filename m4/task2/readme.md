@@ -36,9 +36,21 @@ lp:x:7:
 - 1000-65535 
 - UID - user identifier
 - GID - group identifier
-###### it can be defined in /etc/passwd on 4 position
+ `groups` - command for check which groups belongs to user
+ 
+ it can be defined in **/etc/passwd** on 4 position
+ 
+ To change username `usermod -l login-name OLD-NAME`
+
+To watch structure of skell_dir need to print `cat /etc/skel`
 
 ![image](https://user-images.githubusercontent.com/98917290/161426854-2eea4dcc-5c59-40bb-81be-f8e646589462.png)
+
+To remove user from file system need to write down `sudo userdel username` and `sudo rm -r /homedir/dir`
+
+To lock user account need `sudo usermod -L username` to unlock `sudo usermod -U username`
+
+To delete user password for subsequent change it need to write `sudo passwd -e username`
 
 ![image](https://user-images.githubusercontent.com/98917290/161426890-5137ef91-766c-4e8f-a09d-070e85af01ec.png)
 
