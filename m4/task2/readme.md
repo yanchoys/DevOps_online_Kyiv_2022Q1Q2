@@ -39,3 +39,6 @@ lp:x:7:
 ###### it can be defined in /etc/passwd on 4 position
 
 ![image](https://user-images.githubusercontent.com/98917290/161426854-2eea4dcc-5c59-40bb-81be-f8e646589462.png)
+
+![image](https://user-images.githubusercontent.com/98917290/161426890-5137ef91-766c-4e8f-a09d-070e85af01ec.png)
+
