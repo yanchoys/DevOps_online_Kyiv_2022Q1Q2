@@ -31,9 +31,11 @@ lp:x:7:
 ```
 
 ##### UID ranges
-0 reserved for root
-1-999 fro pseudo-userd,daemon
-1000-65535 
-UID - user identifier
-GID - group identifier
-it can be defined in /etc/passwd on 4 position
+- 0 reserved for root
+- 1-999 fro pseudo-userd,daemon
+- 1000-65535 
+- UID - user identifier
+- GID - group identifier
+###### it can be defined in /etc/passwd on 4 position
+
+![image](https://user-images.githubusercontent.com/98917290/161426854-2eea4dcc-5c59-40bb-81be-f8e646589462.png)
