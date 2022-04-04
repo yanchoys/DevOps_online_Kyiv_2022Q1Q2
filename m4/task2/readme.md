@@ -53,7 +53,32 @@ To lock user account need `sudo usermod -L username` to unlock `sudo usermod -U 
 
 To delete user password for subsequent change it need to write `sudo passwd -e username`
 
+To change owner of file `chown username file.type`
+
+![image](https://user-images.githubusercontent.com/98917290/161643108-00ecc174-7422-4da0-b561-af94582b7f29.png)
+
+To change access permit ilustrated below
+
 ![image](https://user-images.githubusercontent.com/98917290/161426854-2eea4dcc-5c59-40bb-81be-f8e646589462.png)
 
 first triplet acces rights is for user, second for group, third for others 
 rwx - read, write, execute
+
+The octal number is the sum of the permission values, for example:
+3 (1+2) – able to execute and write
+6 (2+4) – able to write and read
+
+The umask command in Linux is used to set default permissions for files or directories the user creates.
+
+Acess permisions for umask is the same as for chmod
+
+| Permission | Octal value | Binary Value | Description                                              |
+|------------|-------------|--------------|----------------------------------------------------------|
+| ---        | 0           | 000          | No permission                                            |
+| --x        | 1           | 001          | only permission to execute                               |
+| -w-        | 2           | 010          | only permission to write                                 |
+| -wx        | 3           | 011          | only permission to write and execute                     |
+| r--        | 4           | 100          | only permission to read                                  |
+| r-x        | 5           | 101          | permission to read and execute                           |
+| rw-        | 6           | 110          | permission to read and write                             |
+| rwx        | 7           | 111          | permission to do all three, i.e. read, write and execute |
