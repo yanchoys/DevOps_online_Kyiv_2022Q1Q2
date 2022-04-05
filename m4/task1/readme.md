@@ -100,6 +100,10 @@ After deleting file labwork 2 soft link is unavailable, because was link to the 
 
 ![](https://github.com/yanchoys/DevOps_online_Kyiv_2022Q1Q2/blob/main/m4/images/image_13.jpg)
 
+### Count the number of lines containing a given sequence of characters in a givenfile.
+
+![](https://github.com/yanchoys/DevOps_online_Kyiv_2022Q1Q2/blob/main/m4/images/image_24.jpg)
+
 ### Using the find command, find all files in the /etc directory containing the host character sequence
 
 ![](https://github.com/yanchoys/DevOps_online_Kyiv_2022Q1Q2/blob/main/m4/images/image_15.jpg)
