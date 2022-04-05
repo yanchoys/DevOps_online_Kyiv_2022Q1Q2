@@ -82,3 +82,6 @@ Acess permisions for umask is the same as for chmod
 | r-x        | 5           | 101          | permission to read and execute                           |
 | rw-        | 6           | 110          | permission to read and write                             |
 | rwx        | 7           | 111          | permission to do all three, i.e. read, write and execute |
+
+##### What is sticky bit
+**Sticky Bit** is mainly used on folders in order to avoid deletion of a folder and it’s content by other users though they having write permissions on the folder contents. If Sticky bit is enabled on a folder, the folder contents are deleted by only owner who created them and the root user.
