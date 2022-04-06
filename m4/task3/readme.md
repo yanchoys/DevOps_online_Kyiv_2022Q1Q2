@@ -19,3 +19,10 @@ It contains useful information about the processes that are currently running, i
 ##### PS get information about processes
 
 ![image](https://user-images.githubusercontent.com/98917290/162073543-20a76578-b881-409d-bee2-a031f4a2fc2d.png)
+
+
+
+User-space processes have its own virtual address space.
+
+Kernel processes or threads do not have their own address space, they operate within kernel address space only. And they may be started before the kernel has started any user process (e.g. init).
+
