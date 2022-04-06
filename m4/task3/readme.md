@@ -1,3 +1,5 @@
+## Task 3
+
 ##### How many states could have process
 In Linux, a process is an instance of executing a program or command. While these processes exist, they’ll be in one of the five possible states:
 
@@ -13,3 +15,7 @@ Proc file system (procfs) is virtual file system created on fly when system boot
 It contains useful information about the processes that are currently running, it is regarded as control and information center for kernel.
 
 ![image](https://user-images.githubusercontent.com/98917290/162052853-07a36398-3c21-46af-b1e3-65f7770fb150.png)
+
+##### PS get information about processes
+
+![image](https://user-images.githubusercontent.com/98917290/162073543-20a76578-b881-409d-bee2-a031f4a2fc2d.png)
