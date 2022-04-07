@@ -39,3 +39,4 @@ The top command (table of processes) displays the processor activity of your Lin
 
 Command top show process of specific User `top U illia`
 ![image](https://user-images.githubusercontent.com/98917290/162218444-4c3e79c9-35f6-4317-85d4-1a2829ee487d.png)
+
