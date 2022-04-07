@@ -26,3 +26,8 @@ User-space processes have its own virtual address space.
 
 Kernel processes or threads do not have their own address space, they operate within kernel address space only. And they may be started before the kernel has started any user process (e.g. init).
 
+
+Show processes by user
+
+![image](https://user-images.githubusercontent.com/98917290/162217442-d1fbfb81-b870-4f1a-9cca-367c7456d331.png)
+
