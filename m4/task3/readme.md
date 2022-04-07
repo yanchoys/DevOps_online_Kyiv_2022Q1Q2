@@ -31,3 +31,8 @@ Show processes by user
 
 ![image](https://user-images.githubusercontent.com/98917290/162217442-d1fbfb81-b870-4f1a-9cca-367c7456d331.png)
 
+Utilities can be used to analyze existing running tasks
+
+![image](https://user-images.githubusercontent.com/98917290/162217963-4e325fac-668b-4c81-ae46-1c704a4f08e3.png)
+
+
