@@ -37,5 +37,5 @@ Utilities can be used to analyze existing running tasks
 
 The top command (table of processes) displays the processor activity of your Linux box and also displays tasks managed by the kernel in real-time. It also shows information about CPU and memory utilization of a list of running processes.
 
-`top U illia`
+Command top show process of specific User `top U illia`
 ![image](https://user-images.githubusercontent.com/98917290/162218444-4c3e79c9-35f6-4317-85d4-1a2829ee487d.png)
