@@ -35,4 +35,4 @@ Utilities can be used to analyze existing running tasks
 
 ![image](https://user-images.githubusercontent.com/98917290/162217963-4e325fac-668b-4c81-ae46-1c704a4f08e3.png)
 
-
+The top command (table of processes) displays the processor activity of your Linux box and also displays tasks managed by the kernel in real-time. It also shows information about CPU and memory utilization of a list of running processes.
