@@ -40,3 +40,32 @@ The top command (table of processes) displays the processor activity of your Lin
 Command top show process of specific User `top U illia`
 ![image](https://user-images.githubusercontent.com/98917290/162218444-4c3e79c9-35f6-4317-85d4-1a2829ee487d.png)
 
+renice alters the scheduling priority of one or more running
+       processes. The first argument is the priority value to be used.
+       The other arguments are interpreted as process IDs (by default),
+       process group IDs, user IDs, or user names. renice’ing a process
+       group causes all processes in the process group to have their
+       scheduling priority altered. renice’ing a user causes all
+       processes owned by the user to have their scheduling priority
+       altered.
+       
+       `renice [-n] priority [-g|-p|-u] identifier...`
+       
+##### Change priority while command top       
+ Once given top command, press r. Give PID value of the process you want to change the process value. Give renice value (from -20 to +19)
+ 
+SIGHUP 1 Hang up
+
+SIGINT 2 Interrupt from the keyboard
+
+SIGKILL 9 Kill Signal
+
+SIGTERM 15 Termination signal
+
+SIGSTOP 17, 19, 23 Stop process
+
+command to kill process `Kill signal PID`
+
+## Part 2
+
+![image](https://user-images.githubusercontent.com/98917290/162233437-5ed63634-3118-43f5-83d2-85028487e7b1.png)
