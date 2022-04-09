@@ -69,3 +69,14 @@ command to kill process `Kill signal PID`
 ## Part 2
 
 ![image](https://user-images.githubusercontent.com/98917290/162233437-5ed63634-3118-43f5-83d2-85028487e7b1.png)
+
+#### Using and creating SSH keys
+
+![image](https://user-images.githubusercontent.com/98917290/162590525-a8156cb9-e5d1-4656-83da-2009b763c23a.png)
+
+
+Generating a new SSH public and private key pair on your local computer is the first step towards authenticating with a remote server without a password. Unless there is a good reason not to, you should always authenticate using SSH keys.
+
+A number of cryptographic algorithms can be used to generate SSH keys, including RSA, DSA, and ECDSA. RSA keys are generally preferred and are the default key type.
+
+
