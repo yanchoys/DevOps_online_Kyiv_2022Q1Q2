@@ -85,6 +85,8 @@ network:
 
 ![lease-list](https://github.com/yanchoys/DevOps_online_Kyiv_2022Q1Q2/blob/main/m5/images/photo_2022-04-17_22-14-46.jpg)
 
+`sudo iptables -A FORWARD -p icmp -s 10.8.99.2 -d 172.17.22.1 -j DROP`
+
 #### Pat for client_1/2
 
 ![lease-list](https://github.com/yanchoys/DevOps_online_Kyiv_2022Q1Q2/blob/main/m5/images/photo_2022-04-17_22-14-50.jpg)
