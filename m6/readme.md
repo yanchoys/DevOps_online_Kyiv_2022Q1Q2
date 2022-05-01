@@ -21,7 +21,8 @@ func2(){
 
 if [[ $1 = --all ]]
 then 
-	ip a
+	hostnamectl | grep -i hostname 
+                ip addr | grep -i inet
 fi
 }
 
