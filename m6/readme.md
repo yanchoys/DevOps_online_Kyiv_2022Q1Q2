@@ -94,3 +94,7 @@ done < $file
 #nonExistPage
 #botVisitSite
 ```
+
+
+### Setting up Crontab
+![image](https://user-images.githubusercontent.com/98917290/166166228-1535bf92-f0ba-4b76-ae01-97a19d02930f.png)
