@@ -34,6 +34,12 @@ fi
 }
 func  $1
 ```
+![image](https://user-images.githubusercontent.com/98917290/166166854-834ca433-49d1-419d-9539-0196b4fb9b04.png)
+
+![image](https://user-images.githubusercontent.com/98917290/166166796-379bacd2-5634-43dc-840e-683de965e424.png)
+
+![image](https://user-images.githubusercontent.com/98917290/166166806-3a5ba6d9-076c-4b61-a1f1-8790a2f476dd.png)
+
 
 ### SubTaskB
 
@@ -94,6 +100,8 @@ done < $file
 #nonExistPage
 #botVisitSite
 ```
+![image](https://user-images.githubusercontent.com/98917290/166166724-da7fcfef-d664-4a13-b721-3986197158d6.png)
+
 
 ```
 #! /bin/bash
@@ -139,4 +147,9 @@ ls -lh $dest
 ```
 
 ### Setting up Crontab
+
 ![image](https://user-images.githubusercontent.com/98917290/166166228-1535bf92-f0ba-4b76-ae01-97a19d02930f.png)
+
+### Working Crontab
+
+![image](https://user-images.githubusercontent.com/98917290/166166412-ee6f3d54-e682-4940-909e-7223a2bba1a1.png)
