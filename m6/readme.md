@@ -95,6 +95,48 @@ done < $file
 #botVisitSite
 ```
 
+```
+#! /bin/bash
+
+#what to backup
+BACKUP_FILES=$1
+log=~/Desktop/backup_log.log
+#where to backup
+DEST=$2
+
+#creating filename
+if [[ -f ~/Desktop/backup_log.log ]]
+then echo "log file was already created"
+else
+	touch ~/Desktop/backup_log.log
+fi
+day=$(date +%A)
+hostname=$(hostname -s)
+archive_file="$day-$hostname.tgz"
+
+echo "Started backingup $backup_files to $dest/$archive_file" 
+
+
+
+
+#add info to log
+if [[ $(ls -A $DEST) ]]
+then
+	echo "TIME: "$(date +%m/%d/%Y:"["%T"]") " -- " $(rm -rf $DEST/*) "ACTION  DELETE" " -- " "Previous backup deleted">>$log
+
+else
+	echo $(date +%m/%d/%Y:"["%T"]") " -- " "DIR was empty">>$log
+fi
+#backup files using tar
+sudo tar -cpzf $DEST/$archive_file $BACKUP_FILES
+
+echo "TIME:" $(date +%m/%d/%Y:"["%T"]") " -- "  "ACTION ADD" " -- " "FILES ["$(ls -A $BACKUP_FILES) "] -- added to backup" $(ls -A $DEST) >> $log
+
+echo "Backup finished"
+date
+
+ls -lh $dest
+```
 
 ### Setting up Crontab
 ![image](https://user-images.githubusercontent.com/98917290/166166228-1535bf92-f0ba-4b76-ae01-97a19d02930f.png)
