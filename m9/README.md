@@ -45,18 +45,22 @@ pipeline {
     stages {
         stage('Git checkout') {
             steps {
-                git credentialsId: 'gtihub-key', url: 'git@github.com:ark-test-2022/Final_proj.git'
+               git branch: 'main', credentialsId: 'jenk_aws_deploy', url: 'git@github.com:yanchoys/DevOps_online_Kyiv_2022Q1Q2.git'
             }
         }
-        stage('Terrafrom init'){
+        stage('Terraform init'){
             steps{
-                sh ('terraform init') 
+
+                sh ('cd /var/lib/jenkins/workspace/final_proj/m9/; terraform init') 
+                sh ('pwd')
             }
         }
-        stage('Terrafrom Apply'){
+        stage('Terraform Apply'){
             steps{
                 sleep(10)
-                sh ('terraform $action --auto-approve')
+                sh ('cd /var/lib/jenkins/workspace/final_proj/m9/; terraform $action --auto-approve')
+                sh ('pwd')
+                
             }
         }    
         stage('Ansible playbook'){
@@ -79,3 +83,10 @@ pipeline {
 ![image](https://user-images.githubusercontent.com/98917290/178026413-0df924fb-73b2-4558-8b1b-4f3ac21885d3.png)
 
 ![image](https://user-images.githubusercontent.com/98917290/178022357-03f828f6-31d4-4f0c-8675-1a7b17d0d843.png)
+
+## GitHub Webhook
+
+![image](https://user-images.githubusercontent.com/98917290/178035284-e21f3d96-314d-493f-9816-6830b054ace5.png)
+
+![image](https://user-images.githubusercontent.com/98917290/178035211-9e622e98-1040-41b2-848a-00080ebd80ac.png)
+
