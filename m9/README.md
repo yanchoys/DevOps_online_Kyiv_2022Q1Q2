@@ -45,18 +45,22 @@ pipeline {
     stages {
         stage('Git checkout') {
             steps {
-                git credentialsId: 'gtihub-key', url: 'git@github.com:ark-test-2022/Final_proj.git'
+               git branch: 'main', credentialsId: 'jenk_aws_deploy', url: 'git@github.com:yanchoys/DevOps_online_Kyiv_2022Q1Q2.git'
             }
         }
-        stage('Terrafrom init'){
+        stage('Terraform init'){
             steps{
-                sh ('terraform init') 
+
+                sh ('cd /var/lib/jenkins/workspace/final_proj/m9/; terraform init') 
+                sh ('pwd')
             }
         }
-        stage('Terrafrom Apply'){
+        stage('Terraform Apply'){
             steps{
                 sleep(10)
-                sh ('terraform $action --auto-approve')
+                sh ('cd /var/lib/jenkins/workspace/final_proj/m9/; terraform $action --auto-approve')
+                sh ('pwd')
+                
             }
         }    
         stage('Ansible playbook'){
