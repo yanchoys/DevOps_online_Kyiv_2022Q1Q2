@@ -1,5 +1,5 @@
 # Resume
-Final project of deployment resume with css and scripts via Jenkins
+Final project of deployment Portfolia with css and scripts via Jenkins
 
 ## Step 1
 Launch an instance on ubutu 20.02 with inbound rules of security group which access to ports: 
@@ -9,10 +9,14 @@ Create SSH key for GitHub and deploy public key to GIT
 Also need to create a key and attach it to instance
 
 ## Step 2
-Downloan missing plugins
+Download missing plugins
 - Ansible
 - Terrafrom
 - Publish over SSH
+And create an Elastic IP in AWS
+
+![image](https://user-images.githubusercontent.com/98917290/178079391-7ca7b7b9-06b7-4711-9302-fc75c541ddad.png)
+
 
 ## Step 3
 Modify IAM role of Jenkins master
